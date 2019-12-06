@@ -1,0 +1,79 @@
+html, body {
+    width: 100%;
+}
+
+H2 {
+    color: white;
+}
+
+body {
+     background-image: url("bg.jpg");
+     background-repeat:no-repeat;
+     background-size:cover;
+}
+
+fieldset {
+    margin: 0 auto;
+    width: 50%;
+    background-color: lightgrey;
+    text-align: center;
+    color: black;
+}
+
+fieldset > legend {
+        font-weight: bold;
+    background-color:forestgreen;
+    border: 1px solid black;
+    color: white;
+}
+
+table {
+    margin: 0 auto;
+    background-color: #E7FFE7;
+}
+
+
+tr { 
+    outline: 1px solid;
+    padding: 3px 8px 3px 8px;
+    
+}
+
+thead tr {
+    background-color: green;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+thead td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+td {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input td {
+    font-weight: bold;
+}
+
+#insertForm > fieldset {
+    margin: 0 auto;
+    width: 50%;
+    background-color: lightgrey;
+    text-align: center;
+    color: white;
+    
+}
+
+#insertForm > fieldset > legend {
+    font-weight: bold;
+    background-color:forestgreen;
+    border: 1px solid black;
+    color: white;
+}
+
