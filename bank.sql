@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 -- Database: `ajstepp`
 --
 CREATE DATABASE IF NOT EXISTS `ajstepp` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `ajstepp`;
+USE `ajstepp`; 
 
 -- --------------------------------------------------------
 
